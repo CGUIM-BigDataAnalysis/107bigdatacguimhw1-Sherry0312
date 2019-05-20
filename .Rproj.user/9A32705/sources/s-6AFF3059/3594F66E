@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3110576986",
+    "hash" : "952860749",
     "id" : "3594F66E",
-    "lastKnownWriteTime" : 1558340349,
-    "last_content_update" : 1558340349279,
+    "lastKnownWriteTime" : 1558344828,
+    "last_content_update" : 1558344828588,
     "path" : "~/GitHub/107bigdatacguimhw1-Sherry0312/DataAnalysis.R",
     "project_path" : "DataAnalysis.R",
     "properties" : {
-        "cursorPosition" : "88,32",
-        "scrollLine" : "75"
+        "cursorPosition" : "6,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,

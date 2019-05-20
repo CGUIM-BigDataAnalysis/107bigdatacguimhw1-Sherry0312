@@ -4,6 +4,7 @@ library(dplyr)
 #讀入資料
 X103education <- read_csv("C:/Users/Jacky/Downloads/Data/103education.csv")
 X106education <- read_csv("C:/Users/Jacky/Downloads/Data/106education.csv")
+X106education$大職業別<-gsub("_","、",X106education$大職業別)
 newtable<-select(inner_join(X103education,X106education,by="大職業別"),"大職業別","年度.x",
                  "大學-薪資.x","年度.y","大學-薪資.y")
 newtable$`大學-薪資.x`<-gsub("—",NA,newtable$`大學-薪資.x`)
